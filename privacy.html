@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="How Serenity Knowledge Automation uses Google Drive data and protects credentials.">
+  <title>Privacy Policy — Serenity Knowledge Automation</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="top"><a class="logo" href="./">SERENITY <span>KNOWLEDGE</span></a><nav aria-label="Site pages"><a href="./">Overview</a><a aria-current="page" href="./privacy.html">Privacy</a><a href="./terms.html">Terms</a></nav></header>
+  <main>
+    <p class="eyebrow">PRIVACY · EFFECTIVE 9 OCTOBER 2026</p>
+    <h1>Privacy Policy</h1>
+    <p class="lead">This policy describes the intended handling of Google account data by Serenity Knowledge Automation, a private, owner-operated Google Drive-to-social-media workflow.</p>
+    <section class="panel">
+      <h2>1. Who operates the service?</h2>
+      <p>The service is operated privately for the Serenity Knowledge brand by its account owner. It is not offered as a public multi-user service. For questions or requests, contact the administrator through the contact details displayed on the Google OAuth consent screen, or through the <a href="https://github.com/ellisking94/serenity-oauth-site/issues">project contact page</a>. Do not post confidential information in public GitHub issues.</p>
+      <h2>2. Google data requested and used</h2>
+      <p>With the account owner's permission, the connector may access Google Drive file identifiers, names, file metadata and file contents needed to locate the authorised Serenity media folder, upload approved media assets, check their integrity and obtain media URLs. The exact Google Drive permissions requested are displayed by Google during authorisation. No Gmail, contacts, calendar, or advertising-data access is part of this connector.</p>
+      <h2>3. Purpose of use</h2>
+      <p>The workflow uses Google Drive access only to host and verify Serenity Knowledge content approved for social publishing, and to pass relevant approved asset URLs to the owner's Buffer account. Files outside the intended workflow should not be processed. Google data is not used for advertising, behavioural profiling, or training general-purpose AI models by this connector.</p>
+      <h2>4. Where information is processed and stored</h2>
+      <p>Google Drive files remain in the owner's Google Drive. The authorised automation may temporarily download/upload media to complete validation. OAuth configuration and refresh tokens, where used, are intended to be kept in restricted GitHub Actions secrets, not committed to public repositories. GitHub Actions logs and short-lived workflow artifacts may contain operational metadata such as file IDs, checksums, dates and delivery statuses; secrets must never be printed in logs. The owner controls the GitHub repository and connected accounts.</p>
+      <h2>5. Sharing and disclosure</h2>
+      <p>Approved media files may be made accessible by direct link so Buffer can retrieve them for publication. Such media may then appear on Instagram, Facebook and TikTok according to the owner's instructions. Private Drive files, OAuth secrets, and unrelated account content are not intentionally shared or published. Google, GitHub and Buffer operate under their own privacy and security terms when the workflow uses their services. We do not sell Google user data.</p>
+      <h2>6. Retention and deletion</h2>
+      <p>The account owner manages media retention in Google Drive and workflow records in GitHub. Temporary processing files are removed when ephemeral automation runners are disposed of, subject to any GitHub artifact/log retention settings. The owner can remove hosted files and workflow history from their respective services. Revoking Google account access prevents new authorised Drive API operations, but does not automatically delete previously published social media content.</p>
+      <h2>7. Security and control</h2>
+      <p>Access should use HTTPS, restricted credentials and least-privilege permissions where technically possible. Secrets must never be entered on this public website. This application cannot promise that third-party service providers never experience incidents. Review Google's permission screen carefully and authorise only if you recognise this workflow.</p>
+      <h2>8. Your choices</h2>
+      <p>The Google account owner can review or revoke access at <a href="https://myaccount.google.com/connections">Google Account → Third-party connections</a>. They may also delete automation credentials stored in GitHub and remove authorised content from Google Drive. For data enquiries, use the contact method described above.</p>
+      <h2>9. Changes</h2>
+      <p>If the application's actual data practices change, this policy must be updated before those changes are deployed. Last updated: 9 October 2026.</p>
+    </section>
+  </main>
+  <footer><span>© 2026 Serenity Knowledge</span><span><a href="./">Home</a> · <a href="./terms.html">Terms</a></span></footer>
+</body>
+</html>
